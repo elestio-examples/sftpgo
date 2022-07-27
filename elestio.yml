@@ -2,7 +2,27 @@ ports:
   - protocol: "HTTPS"
     targetProtocol: "HTTP"
     listeningPort: "443"
-    targetPort: "2368"
+    targetPort: "8080"
+    targetIP: "172.17.0.1"
+    public: true
+    path: "/"
+    isAuth: false
+  - protocol: "TCP"
+    targetProtocol: "TCP"
+    listeningPort: "21"
+    targetIP: "172.17.0.1"
+    targetPort: "2121"
+    public: true
+  - protocol: "TCP"
+    targetProtocol: "TCP"
+    listeningPort: "2022"
+    targetIP: "172.17.0.1"
+    targetPort: "2222"
+    public: true
+  - protocol: "HTTPS"
+    targetProtocol: "HTTP"
+    listeningPort: "10080"
+    targetPort: "10880"
     targetIP: "172.17.0.1"
     public: true
     path: "/"
