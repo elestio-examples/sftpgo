@@ -21,7 +21,7 @@ FTP service will be available on:
     FTP Port: 21
     SFTP Port: 2022
     Web client: https://[CI_CD_DOMAIN]
-    Webdav URL: https://[CI_CD_DOMAIN]:40080/
+    Webdav URL: https://[CI_CD_DOMAIN]:4080/
 
 Documentation: https://github.com/drakkan/sftpgo/tree/main/docs
 
