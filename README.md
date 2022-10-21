@@ -10,7 +10,7 @@ You are now able to sign to the Admin UI here:
     
     https://[CI_CD_DOMAIN]/web/admin
     login: root
-    password: (set in env var ADMIN_PASSWORD)
+    password: [ADMIN_PASSWORD] (set in env var)
 
 Warning: the admin accout is restricted to the admin UI and cannot connect by any other protocol.
 Once logged in you can create users, then users will be able to login using FTP / SFTP / Webdav / web client ui.
